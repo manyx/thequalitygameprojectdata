@@ -54,7 +54,7 @@ N = 30
 
 area = pi*(2.5 )**2 # 0 to 10 point radiuses
 ylabel('Users')
-xlabel('Time in minutes')
+xlabel('Time in days')
 
 axis([min(x),max(x),min(y),max(y)])
 c = scatter(x,y,s=area, marker='o', c='r')
